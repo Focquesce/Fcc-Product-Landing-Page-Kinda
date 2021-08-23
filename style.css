@@ -1,0 +1,70 @@
+#header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#header-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.omime {
+  text-align: center;
+  color: gainsboro;
+}
+
+body {
+  background: linear-gradient(270deg, #8F00FF, #191970);
+  font-family: titillium web; 
+}
+
+h2 {
+  text-align: center;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: #900;
+}
+
+a:hover {
+  color: chartreuse;
+}
+
+a:active {
+  color: #4f7942;
+}
+
+#video {
+  margin: 0 auto;
+  display: block;
+}
+
+.middle {
+  color: #88D1F1;
+  padding: 350px 0;
+}
+
+.bottom {
+  color: chartreuse;
+}
+
+#email {
+  color: teal;
+}
+
+#submit {
+  color: #5a4fcf;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+}
